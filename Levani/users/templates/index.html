@@ -1,0 +1,28 @@
+{% load static %}
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Beautiful Django Page</title>
+    <link rel="stylesheet" href="{% static 'css/styles.css' %}">
+    <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@400;700&display=swap" rel="stylesheet">
+</head>
+<body>
+    <div class="container">
+        <header>
+            <h1>Welcome to Your Stylish Django Page</h1>
+        </header>
+        <main>
+            <p>This is a simple, beautiful webpage created with Django, CSS, and JavaScript.</p>
+            <button id="actionButton">Click me!</button>
+        </main>
+        <footer>
+            <p>&copy; 2024 My Awesome Project</p>
+        </footer>
+    </div>
+
+    <!-- Link to JS file -->
+    <script src="{% static 'js/script.js' %}"></script>
+</body>
+</html>
